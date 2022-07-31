@@ -3,21 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Travel to Poadma  Bridge</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
   <body>
     
-    <!----Navber-->
-    <div>
-      <img src="" alt="">
-    </div>
-      <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
+    <!----Navber start-->
+      <nav class="navbar navbar-light bg-light ">
+        <div class="container-fluid d-flex">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <nav class="navbar-brand ">
+            <i class="fa-solid fa-earth-asia fa-asia"></i>
+          </nav>
+            
+          </div>
         </div>
       </nav>
       <div class="collapse" id="navbarToggleExternalContent">
@@ -38,10 +42,76 @@
           </ul>
         </div>
       </div>
+<!----Navber end-->
+<!----slider start-->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active " data-bs-interval="10000">
+            <img src="image/Image3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="image/Image1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption  ">
+              <div class="container">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success " type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/Image2.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption ">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+<!----slider end-->
+
+ 
+<section class="container">
+  <div class="row g-0 p-0" >
+    <div class="col-3 p-0">
+      <div class="card image-fluid slide-collage">
+        <img src="image/Freedom2.jpg " alt="">
+      </div>
+    </div>
+    <div class="col-3 p-0">
+      <div class="card image-fluid slide-collage ">
+        <img src="image/Freedom1.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-3 p-0 ">
+      <div class="card image-fluid slide-collage">
+        <img src="image/Love.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-3 p-0">
+      <div class="card image-fluid slide-collage">
+        <img src="image/Freedom4.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
- <!----Navber-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
