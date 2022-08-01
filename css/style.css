@@ -1,10 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 
 
 
 
+section {
+    margin-top: 20px;
+}
+
+.logo {
+    color: rgb(43, 197, 197);
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 700;
+}
 
 
-.slide-collage img{
-    width: 120px;
-    height: 120px;
+.carousel-caption{
+    text-align: center;
+}
+.search-ber{
+    width: 320px;
+}
+
+.heading-titel{
+    text-align: center;
+}
+.destination .collum1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.destination .collum2 img{
+    width: 100%;
+    height: 100%;
+}
+.destination .collum3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+.Booking{
+    border: none;
+}
+.booking-icon{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+.booking-icon img{
+    width: 60px;
+    height: 60px;
+    
+    
 }
