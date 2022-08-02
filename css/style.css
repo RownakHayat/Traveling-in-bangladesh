@@ -58,9 +58,6 @@ section {
     height: 100%;
 }
 
-
-
-
 .Hisha2{
     width: 100%;
     height: 277px
@@ -149,4 +146,8 @@ section {
 .fa-brand{
     font-size: 25px;
     padding-left: 10px;
+}
+
+.footer-section{
+    background-color: aqua;
 }
