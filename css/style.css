@@ -20,6 +20,13 @@ section {
 
 
 .carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 41%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
     text-align: center;
 }
 .search-ber{
@@ -120,9 +127,21 @@ section {
     height: 60px;
     
 }
+.book-tex{
+    text-align: center;
+}
+
+
+
+
 .search_btn{
     background-color: #20c1ef;
     padding: 0.5rem 8rem;
     color: #ffff;
-    border-radius: 0;
+    border-radius: 3px;
+}
+
+.fa-brand{
+    font-size: 25px;
+    padding-left: 10px;
 }
